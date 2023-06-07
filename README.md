@@ -1,4 +1,4 @@
-# [KOHA](https://img.youtube.com/vi/configuroweb/0.jpg)  Sistema integrado de gestión de bibliotecas
+# [KOHA](https://koha-community.org)  Sistema integrado de gestión de bibliotecas
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 
 ### Instalación y Personalización de Koha 

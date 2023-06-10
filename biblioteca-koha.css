@@ -8574,7 +8574,7 @@ button.remove:hover i.fa {
 }
 #logo {
     /* background: transparent url(../images/koha-green-logo.svg) no-repeat scroll 0; */
-    background: transparent url(https://koha.adminkuhn.ch/opac-tmpl/bootstrap/images/koha-green-logo.svg) no-repeat scroll 0;
+    background: transparent url(https://koha.adminkuhn.ch/opac-tmpl/bootstrap/images/koha-green-logo.svg) no-repeat scroll 0 !important;
     float: left!important;
     padding: 0
 }

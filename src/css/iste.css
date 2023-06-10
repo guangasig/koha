@@ -106,10 +106,11 @@ h1{
 }
 
 .p-footer{
-    font-size: 14px;
-    line-height: 24px;
-    margin: 0em 0em 0.15em 0em;
     color: var(--primary);
+    font-family: "swap", Sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    margin: 0em 0em 0em 0em;
 }
 
 .hover-fade-inactive:hover > li:hover > a {

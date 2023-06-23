@@ -11126,6 +11126,20 @@ nav.breadcrumb [aria-current=page] {
 
 
 /* header */
+#header-region{
+    position: relative;
+    background: #064acc94;
+    height: 72px;
+}
+
+.container-fluid{
+    position: relative;
+    top: -105px;
+    background: #fff;
+    z-index: 7;
+    height: 120px;
+}
+
 .container-navbar{
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     padding-top: 3%;
@@ -11262,4 +11276,4 @@ nav.breadcrumb [aria-current=page] {
       padding-top: 25px;
     }
   }
-  /* sm menu */
+  /* sm menu */ 

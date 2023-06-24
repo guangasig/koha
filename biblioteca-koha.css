@@ -11147,7 +11147,7 @@ nav.breadcrumb [aria-current=page] {
     top: -75px;
     background: #fff;
     z-index: 7;
-    background-color: red !important;
+    /* background-color: red !important; */
     /* height: 120px; */
 }
   
@@ -11223,7 +11223,7 @@ nav.breadcrumb [aria-current=page] {
   .offcanvas.offcanvas-end {
     top: 0;
     right: 0;
-    width: 80% !important;
+    width: 70% !important;
     transform: translateX(100%);
     border-left:0px solid;
   }

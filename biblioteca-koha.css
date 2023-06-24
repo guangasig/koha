@@ -11132,17 +11132,17 @@ nav.breadcrumb [aria-current=page] {
     height: 72px;
 }
 
-
+/*
+    .container-navbar{
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        padding-top: 3%;
+        padding-right: 7%;
+        padding-bottom: 0%;
+        padding-left: 7%;
+    }
+*/
 
 .container-navbar{
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    padding-top: 3%;
-    padding-right: 7%;
-    padding-bottom: 0%;
-    padding-left: 7%;
-}
-
-.container-fluid>col>#opacheader>.en_item>.en_body>.container-navbar{
     position: relative;
     top: -75px;
     background: #fff;

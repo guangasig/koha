@@ -11132,14 +11132,7 @@ nav.breadcrumb [aria-current=page] {
     height: 72px;
 }
 
-.container-fluid>col>#opacheader>.en_item>.en_body>.container-navbar{
-    position: relative;
-    top: -75px;
-    background: #fff;
-    z-index: 7;
-    background-color: red;
-    /* height: 120px; */
-}
+
 
 .container-navbar{
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
@@ -11147,7 +11140,16 @@ nav.breadcrumb [aria-current=page] {
     padding-right: 7%;
     padding-bottom: 0%;
     padding-left: 7%;
-  }
+}
+
+.container-fluid>col>#opacheader>.en_item>.en_body>.container-navbar{
+    position: relative;
+    top: -75px;
+    background: #fff;
+    z-index: 7;
+    background-color: red !important;
+    /* height: 120px; */
+}
   
   .navbar-brand {
     width: 50% !important;

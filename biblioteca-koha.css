@@ -11126,7 +11126,7 @@ nav.breadcrumb [aria-current=page] {
 }
 
 
-/* header */
+/* Header */
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     width: 100%;
@@ -11138,8 +11138,8 @@ nav.breadcrumb [aria-current=page] {
 
 #header-region{
     position: relative;
-    background: #064acc94;
-    height: 72px;
+    background: #001d7e;
+    height: 66px;
 }
 
 /*
@@ -11218,10 +11218,6 @@ nav.breadcrumb [aria-current=page] {
   
   .navbar-collapse .collapse {
       background-color: #dbe9fe8c;
-  }
-  
-  .offcanvas{
-      background-color:#D6E6FF;
   }
   
   .navbar-toggler{

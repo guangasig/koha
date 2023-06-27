@@ -11229,8 +11229,8 @@ nav.breadcrumb [aria-current=page] {
   .offcanvas.offcanvas-end {
     top: 0;
     right: 0;
-    width: 35% !important;
-    transform: translateX(100%);
+    /* width: 35% !important; */
+    /* transform: translateX(100%); */
     border-left:0px solid;
   }
   

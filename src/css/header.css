@@ -1,9 +1,19 @@
+body {
+  background: #fcf9fc none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.navbar{
+  border-bottom: 2px solid #001d7e;
+}
+
 .container-navbar{
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-  padding-top: 3%;
-  padding-right: 7%;
-  padding-bottom: 0%;
-  padding-left: 7%;
+  flex: 1 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .navbar-brand {

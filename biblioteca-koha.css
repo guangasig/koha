@@ -1,4 +1,14 @@
 @charset "UTF-8";
+
+:root {
+    /*   */
+    --primary: #001d7e;
+    --secondary: #a7a9b8; /* si es hover es secondary en los links*/
+    --skyBlue: #cff4f4ba; /* background del contenedor del menu*/
+    --fontiste: "Exo 2";
+}
+
+
 .alert {
     position: relative;
     padding: .75rem 1.25rem;
@@ -11161,10 +11171,15 @@ nav.breadcrumb [aria-current=page] {
     /* height: 120px; */
 }
   
-  .navbar-brand {
+.navbar-brand {
     width: 10% !important;
-  }
-  
+}
+
+.navbar-nav > li > a {
+    color: var(--primary);
+    /* font-weight: 700; */
+}
+    
   .nav-item {
     padding: 0rem 1rem;
   }
@@ -11176,6 +11191,7 @@ nav.breadcrumb [aria-current=page] {
   .nav-link:hover {
     color: #001d7e;
   }
+  
   
   .nav-link a {
     color: #001d7e;

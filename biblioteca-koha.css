@@ -11176,8 +11176,8 @@ nav.breadcrumb [aria-current=page] {
 }
 
 .navbar-nav > li > a {
-    color: var(--primary);
-    /* font-weight: 700; */
+    color: var(--primary) !important;
+    font-weight: 100 !important;
 }
     
   .nav-item {

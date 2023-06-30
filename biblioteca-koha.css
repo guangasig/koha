@@ -11256,19 +11256,18 @@ nav.breadcrumb [aria-current=page] {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     .offcanvas-header{
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 1.5rem;
     }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .offcanvas-header{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1rem 1.5rem;
+        display: none;
     }
-
 }
   
 .btn-close{

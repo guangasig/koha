@@ -4055,7 +4055,7 @@ template {
     --white: #fff;
     --gray: #6c757d;
     --gray-dark: #343a40;
-    --primary: #007bff;
+    /* --primary: #007bff; */
     --secondary: #6c757d;
     --success: #28a745;
     --info: #2679cc;

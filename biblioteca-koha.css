@@ -11278,7 +11278,7 @@ nav.breadcrumb [aria-current=page] {
 
     .navbar-iste> .container-fluid> .navbar-brand {
         width: 50% !important;
-        background-color: palegreen;
+        /* background-color: palegreen; */
     }
 
     .navbar-iste> .container-fluid> .offcanvas.offcanvas-end {
@@ -11289,17 +11289,12 @@ nav.breadcrumb [aria-current=page] {
         background-color: red;
     }
 
-    /* .flex-row-reverse {
-        -ms-flex-direction: column !important;
-        flex-direction: column !important
-    } */
-
     .navbar-iste> .container-fluid> .offcanvas.offcanvas-end> .offcanvas-header{
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 1rem 1.5rem;
-        background-color: #060;
+        /* background-color: #060; */
     }
 
     .navbar-iste> .container-fluid> .offcanvas.offcanvas-end> .offcanvas-header> .btn-close {
@@ -11307,14 +11302,14 @@ nav.breadcrumb [aria-current=page] {
         margin-top: 2px;
         margin-right: 3px;
         margin-bottom: 2px;
-        background-color: #6f42c1;
+        /* background-color: #6f42c1; */
     }
 
     .navbar-iste> .container-fluid> .offcanvas.offcanvas-end> .offcanvas-body{
         flex-grow: 1;
         padding: 1px 2px;
         overflow-y: auto;
-        background-color: #1c7430;
+        /* background-color: #1c7430; */
     }
 
     .navbar-iste> .container-fluid> .offcanvas {

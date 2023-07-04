@@ -11352,7 +11352,7 @@ nav.breadcrumb [aria-current=page] {
     }
 
     .navbar-iste> .container-fluid> .navbar-brand {
-        width: 50% !important;
+        width: 15% !important;
         background-color: palegreen;
     }
 

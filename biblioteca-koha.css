@@ -11343,6 +11343,7 @@ nav.breadcrumb [aria-current=page] {
         align-items: center;
         justify-content: space-between;
         padding: .5rem 0rem !important;
+        border-bottom: 2px solid #001d7e;
     }
 
     .navbar-iste> .container-fluid {
@@ -11354,7 +11355,7 @@ nav.breadcrumb [aria-current=page] {
 
     .navbar-iste> .container-fluid> .navbar-brand {
         width: 15% !important;
-        background-color: palegreen;
+        /* background-color: palegreen; */
     }
 
     .navbar-iste> .container-fluid> .offcanvas.offcanvas-end {
@@ -11370,7 +11371,7 @@ nav.breadcrumb [aria-current=page] {
         flex-grow: 0;
         padding: 0;
         overflow-y: visible;
-        background-color: #1c7430;
+        /* background-color: #1c7430; */
     }
 
     .navbar-iste> .container-fluid> .offcanvas {

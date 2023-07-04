@@ -11264,13 +11264,6 @@ nav.breadcrumb [aria-current=page] {
         background-color: pink;
     }
 
-    .offcanvas-header{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1rem 1.5rem;
-    }
-
     .offcanvas-body{
         display: none;
     }
@@ -11284,9 +11277,23 @@ nav.breadcrumb [aria-current=page] {
         top: 0;
         right: 0;
         width: 80% !important;
-        /* transform: translateX(100%); */
         border-left: 0px solid;
         background-color: red;
+    }
+
+    .navbar-iste> .container-fluid> .offcanvas.offcanvas-end> .offcanvas-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 1.5rem;
+        background-color: #060;
+    }
+
+    .navbar-iste> .container-fluid> .offcanvas.offcanvas-end> .offcanvas-body{
+        flex-grow: 1;
+        padding: 1px 2px;
+        overflow-y: auto;
+        background-color: #1c7430;
     }
 }
 

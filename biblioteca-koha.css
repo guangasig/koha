@@ -11270,8 +11270,18 @@ nav.breadcrumb [aria-current=page] {
         justify-content: space-between;
         padding: 1rem 1.5rem;
     }
+
     .offcanvas-body{
         display: none;
+    }
+
+    .navbar-iste> .container-fluid> .offcanvas.offcanvas-end {
+        top: 0;
+        right: 0;
+        width: 80% !important;
+        transform: translateX(100%);
+        border-left: 0px solid;
+        background-color: red;
     }
 }
 

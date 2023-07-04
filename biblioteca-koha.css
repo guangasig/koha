@@ -11334,10 +11334,56 @@ nav.breadcrumb [aria-current=page] {
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    .offcanvas-header{
+@media (min-width: 992px) {
+
+    .navbar-iste {
+        position: relative !important;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar-iste> .container-fluid {
+        display: flex !important;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar-iste> .container-fluid> .navbar-brand {
+        width: 50% !important;
+        background-color: palegreen;
+    }
+
+    .navbar-iste> .container-fluid> .offcanvas.offcanvas-end {
+        width: 80% !important;
+    }
+
+    .navbar-iste> .container-fluid> .offcanvas.offcanvas-end> .offcanvas-header{
         display: none;
     }
+
+    .navbar-iste> .container-fluid> .offcanvas.offcanvas-end> .offcanvas-body{
+        display: flex;
+        flex-grow: 0;
+        padding: 0;
+        overflow-y: visible;
+        background-color: #1c7430;
+    }
+
+    .navbar-iste> .container-fluid> .offcanvas {
+        position: static;
+        z-index: auto;
+        flex-grow: 1;
+        /* width: auto !important; */
+        height: auto !important;
+        visibility: visible !important;
+        background-color: transparent !important;
+        border: 0 !important;
+        transform: none !important;
+        transition: none;
+    }   
 }
   
 .btn-close{

@@ -11303,6 +11303,21 @@ nav.breadcrumb [aria-current=page] {
         overflow-y: auto;
         background-color: #1c7430;
     }
+
+    .navbar-iste> .container-fluid> .offcanvas {
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        color: black;
+        visibility: hidden;
+        background-color: var(--skyBlue);
+        background-clip: padding-box;
+        outline: 0;
+        /* transition: var(--bs-offcanvas-transition); */
+    }   
 }
 
 /* X-Large devices (large desktops, 1200px and up) */

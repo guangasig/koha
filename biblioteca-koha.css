@@ -11342,6 +11342,7 @@ nav.breadcrumb [aria-current=page] {
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
+        padding: .5rem 0rem !important;
     }
 
     .navbar-iste> .container-fluid {

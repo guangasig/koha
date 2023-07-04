@@ -11275,6 +11275,11 @@ nav.breadcrumb [aria-current=page] {
         display: none;
     }
 
+    .navbar-iste> .container-fluid> .navbar-brand {
+        width: 10% !important;
+        background-color: palegreen;
+    }
+
     .navbar-iste> .container-fluid> .offcanvas.offcanvas-end {
         top: 0;
         right: 0;

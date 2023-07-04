@@ -11269,7 +11269,7 @@ nav.breadcrumb [aria-current=page] {
         flex-wrap: inherit;
         align-items: center;
         justify-content: space-between;
-        background-color: pink;
+        /* background-color: pink; */
     }
 
     .offcanvas-body{
@@ -11286,7 +11286,7 @@ nav.breadcrumb [aria-current=page] {
         right: 0;
         width: 80% !important;
         border-left: 0px solid;
-        background-color: red;
+        /* background-color: red; */
     }
 
     .navbar-iste> .container-fluid> .offcanvas.offcanvas-end> .offcanvas-header{

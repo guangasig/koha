@@ -11256,6 +11256,15 @@ nav.breadcrumb [aria-current=page] {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
+    .navbar-iste {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
     .navbar-iste> .container-fluid {
         display: flex;
         flex-wrap: inherit;

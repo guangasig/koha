@@ -11257,16 +11257,15 @@ nav.breadcrumb [aria-current=page] {
 @media (min-width: 576px) {
 
     .navbar-iste {
-        position: relative;
+        position: relative !important;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
     }
 
-
     .navbar-iste> .container-fluid {
-        display: flex;
+        display: flex !important;
         flex-wrap: inherit;
         align-items: center;
         justify-content: space-between;

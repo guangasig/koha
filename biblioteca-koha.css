@@ -11277,7 +11277,7 @@ nav.breadcrumb [aria-current=page] {
     }
 
     .navbar-iste> .container-fluid> .navbar-brand {
-        width: 10% !important;
+        width: 50% !important;
         background-color: palegreen;
     }
 
@@ -11297,6 +11297,14 @@ nav.breadcrumb [aria-current=page] {
         background-color: #060;
     }
 
+    .navbar-iste> .container-fluid> .offcanvas.offcanvas-end> .offcanvas-header .offcanvas-header .btn-close {
+        padding: calc(1 * .5) calc(1 * .5);
+        margin-top: calc(-.5 * 2);
+        margin-right: calc(-.5 * 3);
+        margin-bottom: calc(-.5 * 2);
+        background-color: #6f42c1;
+    }
+
     .navbar-iste> .container-fluid> .offcanvas.offcanvas-end> .offcanvas-body{
         flex-grow: 1;
         padding: 1px 2px;
@@ -11312,7 +11320,7 @@ nav.breadcrumb [aria-current=page] {
         flex-direction: column;
         max-width: 100%;
         color: black;
-        visibility: hidden;
+        /* visibility: hidden; */
         background-color: var(--skyBlue);
         background-clip: padding-box;
         outline: 0;

@@ -11297,7 +11297,7 @@ nav.breadcrumb [aria-current=page] {
         background-color: #060;
     }
 
-    .navbar-iste> .container-fluid> .offcanvas.offcanvas-end> .offcanvas-header .offcanvas-header .btn-close {
+    .navbar-iste> .container-fluid> .offcanvas.offcanvas-end> .offcanvas-header> .btn-close {
         padding: calc(1 * .5) calc(1 * .5);
         margin-top: calc(-.5 * 2);
         margin-right: calc(-.5 * 3);

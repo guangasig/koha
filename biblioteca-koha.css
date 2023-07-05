@@ -11290,6 +11290,10 @@ nav.breadcrumb [aria-current=page] {
         /* background-color: red; */
     }
 
+    .offcanvas.hiding, .offcanvas.show, .offcanvas.showing {
+        visibility: visible;
+    }
+
     .navbar-iste> .container-fluid> .offcanvas.offcanvas-end> .offcanvas-header {
         display: flex;
         align-items: center;

@@ -11286,10 +11286,11 @@ nav.breadcrumb [aria-current=page] {
         right: 0;
         width: 80% !important;
         border-left: 0px solid;
+        transform: translateX(100%);
         /* background-color: red; */
     }
 
-    .navbar-iste> .container-fluid> .offcanvas.offcanvas-end> .offcanvas-header{
+    .navbar-iste> .container-fluid> .offcanvas.offcanvas-end> .offcanvas-header {
         display: flex;
         align-items: center;
         justify-content: space-between;

@@ -11272,15 +11272,16 @@ nav.breadcrumb [aria-current=page] {
         /* background-color: pink; */
     }
 
-    .offcanvas-body{
-        /* display: none; */
-    }
-
     .navbar-iste> .container-fluid> .navbar-brand {
         width: 50% !important;
         /* background-color: palegreen; */
     }
 
+    .navbar-iste> .container-fluid> .offcanvas.show:not(.hiding), .offcanvas.showing {
+        transform: none;
+    }
+
+    
     .navbar-iste> .container-fluid> .offcanvas.offcanvas-end {
         top: 0;
         right: 0;
@@ -11290,10 +11291,7 @@ nav.breadcrumb [aria-current=page] {
         /* background-color: red; */
     }
 
-    .offcanvas.show:not(.hiding), .offcanvas.showing {
-        transform: none;
-    }
-
+    
     .offcanvas.hiding, .offcanvas.show, .offcanvas.showing {
         visibility: visible;
     }

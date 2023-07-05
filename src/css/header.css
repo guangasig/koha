@@ -139,7 +139,7 @@ a{
 
 .btn-close{
   color: red;
-  /* background-image: url("https://www.svgrepo.com/svg/476546/close") !important; */
+  background-image: url("https://www.svgrepo.com/svg/476546/close") !important;
 }
 
 .btn-close::before {

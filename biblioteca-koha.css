@@ -11273,7 +11273,7 @@ nav.breadcrumb [aria-current=page] {
     }
 
     .offcanvas-body{
-        display: none;
+        /* display: none; */
     }
 
     .navbar-iste> .container-fluid> .navbar-brand {

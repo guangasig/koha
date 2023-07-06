@@ -8008,8 +8008,10 @@ caption {
     color: #000
 }
 .btn-primary {
-    background-color: #548300;
-    border: 1px solid #335000;
+    /* background-color: #548300; */
+    /* border: 1px solid #335000; */
+    background-color: --var(--primary) !important;
+    border: --var(--primary) !important;
     color: #fff
 }
 .btn-primary:link, .btn-primary:visited {

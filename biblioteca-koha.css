@@ -8715,7 +8715,7 @@ button.remove:hover i.fa {
 /* Modificado para van */
 .dropdown-menu>li>a {
     /* font-size: 90% */
-    font-size: 14px;
+    font-size: 15px;
 }
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
     /* background: #548300 none */
@@ -11198,7 +11198,8 @@ nav.breadcrumb [aria-current=page] {
   
 .dropdown-item {
     display: block;
-    margin: 1rem 1rem;
+    margin: 1rem 0.5rem;
+    padding: 0px 5px;
     font-weight: 400;
     color: #001d7e !important;
 }

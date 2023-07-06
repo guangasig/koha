@@ -6,8 +6,8 @@
     --secondary: #a7a9b8; /* si es hover es secondary en los links*/
     --skyBlue: #cff4f4ba; /* background del contenedor del menu*/
     --fontiste: "Exo 2";
+    --primary: #75b600;
 }
-
 
 .alert {
     position: relative;
@@ -8026,7 +8026,7 @@ caption {
     color: #fff
 }
 .btn-primary:focus {
-    /* box-shadow: 0 0 0 2px #75b600; */
+    /* box-shadow: 0 0 0 2px #001d7e; */
     box-shadow: 0 0 0 2px #001d7e;
 }
 .btn-primary.disabled, .btn-primary.disabled.hover, .btn-primary.disabled:hover, .btn-primary:disabled, .btn-primary:disabled.hover, .btn-primary:disabled:hover {
@@ -8039,16 +8039,16 @@ caption {
     cursor: not-allowed
 }
 .btn-primary .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus {
-    box-shadow: 0 0 0 .2rem #75b600
+    box-shadow: 0 0 0 .2rem #001d7e
 }
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled).focus, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled):focus, .show>.btn-primary.dropdown-toggle {
     /* background-color: #649d00; */
-    /* border-color: #75b600 */
+    /* border-color: #001d7e */
     border-color: #001d7e !important;
     box-shadow: 0 0 0 1px #001d7e;
 }
 .show>.btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .2rem #75b600
+    box-shadow: 0 0 0 .2rem #001d7e
 }
 .btn-danger {
     background-color: #b92020;

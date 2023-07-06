@@ -8026,7 +8026,8 @@ caption {
     color: #fff
 }
 .btn-primary:focus {
-    box-shadow: 0 0 0 2px #75b600
+    /* box-shadow: 0 0 0 2px #75b600; */
+    box-shadow: 0 0 0 2px --var(--primary);
 }
 .btn-primary.disabled, .btn-primary.disabled.hover, .btn-primary.disabled:hover, .btn-primary:disabled, .btn-primary:disabled.hover, .btn-primary:disabled:hover {
     /* background-color: #649d00;

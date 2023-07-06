@@ -8712,11 +8712,14 @@ button.remove:hover i.fa {
 .dropdown-menu {
     border-radius: 0
 }
+/* Modificado para van */
 .dropdown-menu>li>a {
-    font-size: 90%
+    /* font-size: 90% */
+    font-size: 14.5px;
 }
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
-    background: #548300 none
+    /* background: #548300 none */
+    color: transparent;
 }
 .dropdown-item:active {
     background-color: #0074ad
@@ -11189,7 +11192,7 @@ nav.breadcrumb [aria-current=page] {
   
 .dropdown-menu {
     border: none;
-    border-radius: 20px;
+    border-radius: 15px;
     background-color: #dbe9fe8c;
 }
   
@@ -11197,7 +11200,7 @@ nav.breadcrumb [aria-current=page] {
     display: block;
     margin: 1rem 1rem;
     font-weight: 400;
-    color: #001d7e;
+    color: #001d7e !important;
 }
   
 .dropdown-item:hover {

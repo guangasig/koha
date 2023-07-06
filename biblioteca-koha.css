@@ -8029,8 +8029,10 @@ caption {
     box-shadow: 0 0 0 2px #75b600
 }
 .btn-primary.disabled, .btn-primary.disabled.hover, .btn-primary.disabled:hover, .btn-primary:disabled, .btn-primary:disabled.hover, .btn-primary:disabled:hover {
-    background-color: #649d00;
-    border-color: #649d00;
+    /* background-color: #649d00;
+    border-color: #649d00; */
+    border-color: --var(--primary) !important;
+    box-shadow: 0 0 0 1px --var(--primary);
     box-shadow: none;
     color: #fff;
     cursor: not-allowed
@@ -8039,8 +8041,10 @@ caption {
     box-shadow: 0 0 0 .2rem #75b600
 }
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled).focus, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled):focus, .show>.btn-primary.dropdown-toggle {
-    background-color: #649d00;
-    border-color: #75b600
+    /* background-color: #649d00; */
+    /* border-color: #75b600 */
+    border-color: --var(--primary) !important;
+    box-shadow: 0 0 0 1px --var(--primary);
 }
 .show>.btn-primary.dropdown-toggle:focus {
     box-shadow: 0 0 0 .2rem #75b600

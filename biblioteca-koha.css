@@ -5,6 +5,7 @@
     --primary: #001d7e;
     --secondary: #a7a9b8; /* si es hover es secondary en los links*/
     --skyBlue: #cff4f4ba; /* background del contenedor del menu*/
+    --skyBlue22:#D6E6FF;
     --fontiste: "Exo 2";
     --primary: #75b600;
 }
@@ -11334,7 +11335,7 @@ nav.breadcrumb [aria-current=page] {
         max-width: 100%;
         color: black;
         /* visibility: hidden; */
-        background-color: var(--skyBlue);
+        background-color: var(--skyBlue2);
         background-clip: padding-box;
         outline: 0;
         /* transition: var(--bs-offcanvas-transition); */

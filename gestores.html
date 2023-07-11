@@ -5,24 +5,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+        
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="src/css/header.css" media="screen" />
-
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Exo 2' rel='stylesheet'>
-
-    <title>ISTE KOHA</title>
+    
+    <link rel="stylesheet" type="text/css" href="./src/css/header.css" media="screen" />
+    <title>Bibliteca ISTE</title>
 </head>
 
 <body>
 
+    <!-- header -->
     <div class="container-iste">
         <nav class="navbar navbar-expand-lg mb-2">
             <div class="container-fluid">
@@ -31,7 +33,7 @@
                     aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                <div class="offcanvas offcanvas-end d-flex flex-row-reverse" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel" style="padding-top: 0.7rem;">
     
                     <div class="offcanvas-header">
@@ -42,14 +44,50 @@
                     </div>
     
                     <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 sm-navbar-nav">
+                        <ul class="navbar-nav flex-grow-1 pe-3 sm-navbar-nav">
 
                             <li class="nav-item">
                                 <a class="nav-link" href="/">Inicio</a>
                             </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="/guias.html">Guías</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Servicios
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item"  href="/formacion.html">
+                                            Formación de Usuarios
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item"  href="/ttitulacion.html">
+                                            Trabajos Titulación
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item"  href="/bibliografia.html">
+                                            Bibliográfia ISTE
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Recursos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="/bases.html">
+                                            Bases Suscritas
+                                        </a>
+                                    </li>
+                                        <a class="dropdown-item" href="/open.html">
+                                            eBooks OpenAccess
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
 
                             <li class="nav-item dropdown">
@@ -58,8 +96,12 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a class="dropdown-item" href="/gestores.html">
-                                            Gestores Bibliográficos
+                                        <a class="dropdown-item" href="/ouriginal.html">
+                                            Antiplagio (Ourinal)
+                                        </a>
+                                    </li>
+                                        <a class="dropdown-item" href="/links.html">
+                                            Links de Interes
                                         </a>
                                     </li>
                                 </ul>
@@ -71,7 +113,7 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a class="dropdown-item"  target="_blank" href="https://revistas.iste.edu.ec/">
+                                        <a class="dropdown-item" target="_blank" href="https://revistas.iste.edu.ec/">
                                             ISTE SCIENTIST
                                         </a>
                                     </li>
@@ -80,16 +122,20 @@
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Contactos
+                                    Conócenos
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a class="dropdown-item" href="/acerca.html">
-                                            Acerca de la Bilioteca
-                                        </a>
+                                        <a class="dropdown-item" href="/acerca.html"> Acerca de la Biblioteca</a>
                                     </li>
                                     <li>
                                         <a class="dropdown-item" href="/horarios.html">Horarios</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/guias.html">Guías y Tutorias</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/reglamento.html">Reglamento ISTE</a>
                                     </li>
                                 </ul>
                             </li>
@@ -154,25 +200,23 @@
                         <div class="contentIcon py-1 px-1"><a href="https://bit.ly/3JTuHRi" target="_blank"><i class="fa-brands fa-tiktok icon-font-awsome"></i></a></div>
                      </div>
                   </div>
-                  <div class="col-sm-6 col-md-7 col">  
-                     <!----Contacto -->
-                     <!-- <div class="container2 col"> -->
+                    <div class="col-sm-6 col-md-7 col">  
+                        <!----Contacto -->
                         <h5 class="title p-footer">CONTÁCTANOS</h5>
 
-                        <div class="infoContent d-flex">
-                           <div class="contentIcon"><i class="fa-solid fa-at icon-font-awsome"></i></div>
-                           <p class="px-1">
-                                 <a class="decorationA" href="mailto:informacion@iste.edu.ec">informacion@iste.edu.ec </a>
-                           </p>
+                        <div class="infoContent d-flex py-1">
+                            <div class="contentIcon"><i class="fa-solid fa-at icon-font-awsome"></i></div>
+                            <p class="px-1 p-footer">
+                                <a class="decorationA p-footer" href="mailto:informacion@iste.edu.ec">informacion@iste.edu.ec </a>
+                            </p>
                         </div>
                         <div class="infoContent d-flex">
-                           <div class="contentIcon"><i class="fa-solid fa-phone icon-font-awsome"></i></div>
-                           <p class="px-1">
-                                 <a class="decorationA" href="tel:+593962804321"> 096 280 4321</a>
-                           </p>
+                            <div class="contentIcon"><i class="fa-solid fa-phone icon-font-awsome"></i></div>
+                            <p class="px-1 p-footer">
+                                <a class="decorationA p-footer" href="tel:+593962804321"> 096 280 4321</a>
+                            </p>
                         </div>
-                     <!-- </div> -->
-                  </div>
+                    </div>
                </div>
             </div>
             <!-- Ubicación -->

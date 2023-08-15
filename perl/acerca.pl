@@ -1,16 +1,13 @@
-# pagina1.pl
+# acerca.pl
 
 use strict;
 use warnings;
+use master;
 
-# Carga la Master Page
-require 'master_page.pl';
-
-# Contenido específico de la página 1
+my $title = "Página acerca";
 my $content = <<"HTML";
-<h2>Página 1</h2>
-<p>Contenido de la página 1</p>
+<h2>Bienvenido a la Página 1</h2>
+<p>Esta es la página del sitio.</p>
 HTML
 
-# Renderiza la página completa con la Master Page
-print render_master_page($content);
+print render_master_page($title, $content);

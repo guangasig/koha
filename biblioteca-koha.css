@@ -12632,11 +12632,11 @@ button.remove:hover i.fa {
 }
 
 .dropdown-menu>li>a:hover {
-    background: #001d7e none
+    background: transparent none
 }
 
 .dropdown-menu>li>a:focus {
-    background: #001d7e none
+    background: transparent none
 }
 
 .dropdown-item:active {

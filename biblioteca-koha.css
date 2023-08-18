@@ -16167,7 +16167,7 @@ nav .pagination {
         align-items: center;
         justify-content: space-between;
         padding: .5rem 0rem !important;
-        border-bottom: 2px solid #001d7e;
+        /* border-bottom: 2px solid #001d7e; */
     }
 
     .navbar-iste>.container-fluid {

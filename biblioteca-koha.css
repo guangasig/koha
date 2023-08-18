@@ -11831,8 +11831,8 @@ caption {
 }
 
 .btn-primary:focus {
-    -webkit-box-shadow: 0 0 0 2px #75b600;
-    box-shadow: 0 0 0 2px #75b600
+    -webkit-box-shadow: 0 0 0 2px #001d7e;
+    box-shadow: 0 0 0 2px #001d7e
 }
 
 .btn-primary.disabled,
@@ -11861,8 +11861,8 @@ caption {
     .disabled):active:focus,
 .btn-primary .btn-primary:not(:disabled,
     .disabled).active:focus {
-    -webkit-box-shadow: 0 0 0 .2rem #75b600;
-    box-shadow: 0 0 0 .2rem #75b600
+    -webkit-box-shadow: 0 0 0 .2rem #001d7e;
+    box-shadow: 0 0 0 .2rem #001d7e
 }
 
 .btn-primary:not(:disabled,
@@ -11874,17 +11874,17 @@ caption {
 .btn-primary:not(:disabled,
     .disabled).focus {
     background-color: #001d7e;
-    border-color: #75b600
+    border-color: #001d7e
 }
 
 .show>.btn-primary.dropdown-toggle {
     background-color: #001d7e;
-    border-color: #75b600
+    border-color: #001d7e
 }
 
 .show>.btn-primary.dropdown-toggle:focus {
-    -webkit-box-shadow: 0 0 0 .2rem #75b600;
-    box-shadow: 0 0 0 .2rem #75b600
+    -webkit-box-shadow: 0 0 0 .2rem #001d7e;
+    box-shadow: 0 0 0 .2rem #001d7e
 }
 
 .btn-danger {

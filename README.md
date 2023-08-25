@@ -10,4 +10,4 @@
 
 ## Personalización
 * [Línea gráfica CREATIVITY IN-SE](http://167.71.22.115:8000)
-* [Línea gráfica ISTE]([http://167.71.22.115:8000/](https://manuelguangasig.com))
+* [Línea gráfica INSTITUCIÓN](https://manuelguangasig.com)

@@ -1,4 +1,4 @@
-# [ISTE](https://iste.edu.ec)
+# [INSTITUCION](https://manuelguangasig.com/)
 ## Línea gráfica de la institución
 
 ### Colores
@@ -16,8 +16,8 @@
 
 | Descripción | Ver | Dimensiones | 
 | --- | --- | --- |
-| Favicon | ![Ver](https://iste.edu.ec/wp-content/uploads/2021/07/Logo-ISTE.svg) |  |
-| Logo | ![Ver](https://iste.edu.ec/wp-content/uploads/2021/07/Logo-Tipo.webp) |  |
+| Favicon | ![Ver](https://manuelguangasig.com/assets/images/logo.png) |  |
+| Logo | ![Ver](https://manuelguangasig.com/assets/images/logo.png) |  |
 
 ### Fuentes
 

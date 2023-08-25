@@ -1,0 +1,129 @@
+<div class="container-navbar">
+    <nav class="navbar navbar-expand-lg mt-3 mb-2 navbar-iste">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation" onclick="myFunction()"> <span
+                    class="navbar-toggler-icon"></span> </button>
+            <div class="offcanvas offcanvas-end d-flex" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"
+                style="padding-top: 0.7rem;" tabindex="-1">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"
+                        onclick="myFunction()"></button>
+                </div>
+                <div class="offcanvas-body" id="myDIV">
+
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 sm-navbar-nav">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="/formacion.php">
+                                        Formación de Usuarios
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/ttitulacion.php">
+                                        Trabajos Titulación
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/bibliografia.php">
+                                        Bibliografía ISTE
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Recursos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="/bases.php">
+                                        Bases Suscritas
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/open.php">
+                                        eBooks OpenAccess
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Herramientas
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="/ouriginal.php">
+                                        Antiplagio (Ourinal)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/links.php">
+                                        Links de Interes
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Revistas
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" target="_blank" href="https://revistas.iste.edu.ec/">
+                                        ISTE SCIENTIST
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Conócenos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="/acerca.php"> Acerca de la Biblioteca</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/horarios.php">Horarios</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/guias.php">Guías y Tutorias</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/reglamento.php">Reglamento ISTE</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<script>
+    function myFunction() {
+        var x = document.getElementById("offcanvasNavbar");
+        if (document.querySelector("#offcanvasNavbar.show")) {
+            x.classList.remove('show');
+        } else {
+            x.classList.add('show');
+        }
+    } 
+</script>

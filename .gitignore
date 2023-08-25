@@ -1,0 +1,5 @@
+node_modules
+src/images/*
+index.html
+biblioteca-koha.css
+package-lock.json
